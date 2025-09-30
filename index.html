@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FreeTaxi — Free rides for people on the front line</title>
+  <meta name="description" content="FreeTaxi: a volunteer-driven app providing free rides to civilians and volunteers in frontline areas of Ukraine. App, contact, team, and proof — all on one page for grant & partner review." />
+  <style>
+    :root{--accent:#0b78d1;--bg:#f7fafc;--card:#ffffff;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#0f1724; line-height:1.45}
+    .container{max-width:980px;margin:32px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{display:flex;flex-direction:column;gap:4px}
+    .badge{background:var(--accent);color:white;padding:6px 10px;border-radius:999px;font-weight:600;font-size:13px}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:12px 0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:20px}
+    .card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(11,120,209,0.06)}
+    .small{font-size:13px;color:var(--muted)}
+    .section{margin-top:18px}
+    .kpi{display:flex;gap:12px;flex-wrap:wrap}
+    .kpi .item{background:#eef6ff;padding:10px 12px;border-radius:8px;font-weight:700}
+    ul{margin:8px 0 0 18px}
+    .team-member{display:flex;gap:12px;align-items:center}
+    .avatar{width:54px;height:54px;border-radius:10px;background:linear-gradient(90deg,#e6f2ff,#f3f9ff);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent)}
+    .muted{color:var(--muted)}
+    .cta{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    footer{margin-top:26px;text-align:center;color:var(--muted);font-size:13px}
+    form input, form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef6;margin-top:8px}
+    .note{font-size:13px;color:#0b78d1}
+    @media (max-width:880px){.grid{grid-template-columns:1fr;}.container{padding:16px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div style="display:flex;align-items:center;gap:12px">
+          <div class="badge">FreeTaxi</div>
+          <h1>FreeTaxi — Free rides for people on the front line</h1>
+        </div>
+        <div class="small">Volunteer-driven mobility service — app, drivers, and logistics to help civilians and responders in frontline areas.</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main class="card">
+        <p class="lead">We provide free, on-demand rides to civilians, medical teams, volunteers, and displaced people in active and recently liberated frontline regions of Ukraine. Our mission is to reduce barriers to safety and essential services during the conflict.</p>
+
+        <section class="section">
+          <h3>What we do</h3>
+          <ul>
+            <li>Mobile app to request a free ride (Android/iOS — link placeholders)</li>
+            <li>Volunteer driver network with verified IDs and background checks</li>
+            <li>Logistics coordination for medical transfers, supply drops, and evacuations</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h3>Problem we solve</h3>
+          <p class="small">Frontline civilians and volunteers often lack safe, reliable transport to reach medical care, evacuation points, shelters, or to move humanitarian cargo. Official transport channels are overloaded — we provide a community-driven alternative at no cost to users.</p>
+        </section>
+
+        <section class="section">
+          <h3>How it works</h3>
+          <ol>
+            <li>User requests a ride in the app and selects a safe pickup zone.</li>
+            <li>A verified volunteer driver accepts the request and follows secure routing protocols.</li>
+            <li>Trip updates and safety confirmations are sent to an assigned coordinator.</li>
+          </ol>
+        </section>
+
+        <section class="section">
+          <h3>Impact & current operations</h3>
+          <div class="kpi">
+            <div class="item">Active regions: Kyiv oblast, Kharkiv oblast (example)</div>
+            <div class="item">Rides completed: 1,230</div>
+            <div class="item">Volunteers: 180</div>
+          </div>
+          <p class="small" style="margin-top:10px">(Replace the numbers above with your real metrics; keep them visible on the public site for verification.)</p>
+        </section>
+
+        <section class="section">
+          <h3>Product & development stage</h3>
+          <p class="small">Android app: published (link). iOS app: in review / coming soon (status). Web dashboard for coordinators: alpha. We welcome infrastructure support to host backend services and staging environments.</p>
+
+        </section>
+
+        <section class="section">
+          <h3>What we need from Google Cloud</h3>
+          <p class="small">We are requesting a Google Cloud VPS (VM) to host our backend API, real-time location services, and a secure admin dashboard. We will provide a technical contact and responsible engineer who can confirm deployment details and security controls on request.</p>
+          <p class="note">Suggested details to include on your public page for eligibility: a public technical contact (email + LinkedIn), link to an investor or donor page if available, and clear statement that the product is an app/tool (not a consulting firm or agency).</p>
+        </section>
+
+        <section class="section">
+          <h3>Proof & verification</h3>
+          <ul>
+            <li>Screenshots of the app (upload images to a public URL)</li>
+            <li>Volunteer verification process (short description)</li>
+            <li>Any public mentions, social posts, or partner letters (linkable PDFs)</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h3>Press kit / Downloads</h3>
+          <p class="small">Add a public link to a one-page PDF with: mission statement, team bios, app screenshots, and contact info. This quick kit helps reviewers validate your project without requests for pitch decks.</p>
+
+        </section>
+
+        <section class="section">
+          <h3>Contact</h3>
+          <p class="small">Technical POC: <strong id="tech-name">Replace Name</strong> — <a href="mailto:tech@example.com">tech@example.com</a> — <a href="#">LinkedIn</a></p>
+
+          <form action="mailto:contact@example.com" method="post" enctype="text/plain">
+            <label class="small">Your name</label>
+            <input type="text" name="name" placeholder="Your full name" />
+            <label class="small">Organization / role</label>
+            <input type="text" name="org" placeholder="Volunteer coordinator / founder" />
+            <label class="small">Message</label>
+            <textarea name="message" rows="4" placeholder="Short message to the team..."></textarea>
+            <div style="margin-top:10px"><button class="cta" type="submit">Send message</button></div>
+          </form>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <h4>Quick facts</h4>
+          <p class="small">Public website: present (this page). Product type: app + platform. Stage: Field operations / early growth.</p>
+
+          <h4 style="margin-top:12px">Team</h4>
+          <div class="team-member" style="margin-top:8px">
+            <div class="avatar">A</div>
+            <div>
+              <div style="font-weight:700">Mohammad Atif Khan</div>
+              <div class="muted small">Founder — logistics & ops</div>
+            </div>
+          </div>
+
+          <div style="margin-top:12px">
+            <h4>Proof files</h4>
+            <p class="small">Add links to any public press coverage or partner letters here (PDFs or public posts). If in stealth, add investor names & POC emails for validation.</p>
+          </div>
+
+          <div style="margin-top:14px">
+            <a class="cta" href="mailto:apply@example.com">Request Support</a>
+            <div style="margin-top:8px;font-size:13px;color:var(--muted)">Or: add a public investor/POC to speed verification.</div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h4>Security & privacy</h4>
+          <p class="small">We follow volunteer ID checks and store minimal personal data. Include a short public privacy note on the site to reassure reviewers.</p>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h4>How to publish</h4>
+          <ol class="small">
+            <li>Copy this HTML into index.html.</li>
+            <li>Host on any static host (GitHub Pages, Netlify, Firebase Hosting) and ensure the domain is public and reachable.</li>
+            <li>Add links to app stores and attach a one-page PDF press kit.</li>
+          </ol>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer>
+      <div>Made by FreeTaxi team — make sure to replace placeholders with real links and contacts before sending to Google Cloud.</div>
+    </footer>
+  </div>
+</body>
+</html>
